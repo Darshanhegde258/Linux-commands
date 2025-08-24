@@ -223,5 +223,57 @@ PING google.com (142.250.183.238): 56 data bytes
 
 Remarks:
 Confirms internet connectivity to Google with response time.
+3. ls -a
 
+Command:
+
+ls -a
+
+Description:
+Lists all files, including hidden ones (those starting with .).
+
+Output:
+
+.  ..  .bashrc  .profile  Desktop  Documents  myfile.txt
+
+Remarks:
+Shows hidden configuration files and the . (current dir) and .. (parent dir).
+
+
+---
+
+4. ls -b
+
+Command:
+
+ls -b
+
+Description:
+Lists files, but escapes non-printable characters (shows them as \xxx).
+
+Output:
+
+Desktop  Documents  Downloads  file\ with\ spaces.txt
+
+Remarks:
+Useful if filenames have spaces or special characters.
+
+
+---
+
+5. ls -c
+
+Command:
+
+ls -c
+
+Description:
+Lists files sorted by last modification time (newest first).
+
+Output:
+
+myfile.txt  Downloads  Desktop  Documents
+
+Remarks:
+Helps track which files were modified most recently
 
